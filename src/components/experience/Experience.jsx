@@ -17,7 +17,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>Quelles sont mes compétences ?</h5>
+      <h5>Ce que je sais faire</h5>
       <h2>Mon Experience</h2>
 
       <div className="container experience__container">
@@ -27,38 +27,38 @@ const Experience = () => {
             <article className='experience__details'>
               <div>
                 <h4><BsPatchCheckFill className='experience__details-icon'/> HTML <AiFillHtml5/></h4>
-                <ProgressBar className='html' animated now={88} label={'88%'}/>
+                <ProgressBar className='html' animated now={88} label={'88%'} variant="success"/>
               </div>
           
             </article>
             <article className='experience__details'>
               <div>
                 <h4><BsPatchCheckFill className='experience__details-icon'/> CSS <SiCss3/></h4>
-                <ProgressBar className='css' animated now={76} label={'76%'}/>
+                <ProgressBar className='css' animated now={76} label={'76%'} variant="success"/>
               </div>
             </article>
             <article className='experience__details'>
               <div>
                 <h4><BsPatchCheckFill className='experience__details-icon'/> JavaScript <SiJavascript/></h4>
-                <ProgressBar className='js' animated now={70} label={'70%'}/>
+                <ProgressBar className='js' animated now={70} label={'70%'} variant="warning"/>
               </div>
             </article>
             <article className='experience__details'>
               <div>
                 <h4><BsPatchCheckFill className='experience__details-icon'/> Bootstrap <SiBootstrap/></h4>
-                <ProgressBar className='bootstrap' animated now={95} label={'95%'}/>
+                <ProgressBar className='bootstrap' animated now={95} label={'95%'} variant="success"/>
               </div>
             </article>
             <article className='experience__details'>
               <div>
                 <h4><BsPatchCheckFill className='experience__details-icon'/> React <SiReact/></h4>
-                <ProgressBar className='react' animated now={67} label={'67%'}/>
+                <ProgressBar className='react' animated now={67} label={'67%'} variant="warning"/>
               </div>
             </article>
             <article className='experience__details'>
               <div>
                 <h4><BsPatchCheckFill className='experience__details-icon'/> Vue.js<FaVuejs/></h4>
-                <ProgressBar className='vuejs' animated now={40} label={'40%'}/>
+                <ProgressBar className='vuejs' animated now={40} label={'40%'} variant="danger"/>
               </div>
             </article>
           </div>
@@ -70,31 +70,31 @@ const Experience = () => {
             <article className='experience__details'>
               <div>
                 <h4><BsPatchCheckFill className='experience__details-icon'/> Symfony <SiSymfony/></h4>
-                <ProgressBar className='symfony' animated now={82} label={'82%'}/>
+                <ProgressBar className='symfony' animated now={82} label={'82%'} variant="success"/>
               </div>
             </article>
             <article className='experience__details'>
               <div>
                 <h4><BsPatchCheckFill className='experience__details-icon'/> PHP <SiPhp/></h4>
-                <ProgressBar className='php' animated now={88} label={'88%'}/>
+                <ProgressBar className='php' animated now={88} label={'88%'} variant="success"/>
               </div>
             </article>
             <article className='experience__details'>
               <div>
                 <h4><BsPatchCheckFill className='experience__details-icon'/> MySQL <SiMysql/></h4>
-                <ProgressBar className='mysql' animated now={79} label={'79%'}/>
+                <ProgressBar className='mysql' animated now={79} label={'79%'} variant="success"/>
               </div>
             </article>
             <article className='experience__details'>
               <div>
                 <h4><BsPatchCheckFill className='experience__details-icon'/> Python <SiPython/></h4>
-                <ProgressBar className='python' animated now={32} label={'32%'}/>
+                <ProgressBar className='python' animated now={32} label={'32%'} variant="danger"/>
               </div>
             </article>
             <article className='experience__details'>
               <div>
                 <h4><BsPatchCheckFill className='experience__details-icon'/> NodeJS <FaNodeJs/></h4>
-                <ProgressBar className='nodejs' animated now={70} label={'83%'}/>
+                <ProgressBar className='nodejs' animated now={70} label={'70%'} variant="warning"/>
               </div>
             </article>
           </div>
