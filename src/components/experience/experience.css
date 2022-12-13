@@ -24,20 +24,89 @@
   color: var(--color-primary);
 }
 
+.experience__container > div h4 {
+  font-size: 1.4rem;
+}
+
 .experience__content {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
+  column-gap: 0.2rem;
 }
 
 .experience__details {
-  display: flex;
+  display: inline-block;
   gap: 1rem;
 }
 
 .experience__details-icon {
-  margin-top: 6px;
   color: var(--color-primary);
+}
+
+.progress {
+  width: 93%;
+  position: relative;
+  display: block;
+  height: 100%;
+  border-radius: 6px;
+  animation: progress 5s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.html {
+  animation-delay: 0.2s;
+}
+
+.css {
+  animation-delay: 0.4s;
+}
+
+.js {
+  animation-delay: 0.6s;
+}
+
+.bootstrap {
+  animation-delay: 0.8s;
+}
+
+.react {
+  animation-delay: 1s;
+}
+
+.vuejs {
+  animation-delay: 1.2s;
+}
+
+.symfony {
+  animation-delay: 0.2s;
+}
+
+.php {
+  animation-delay: 0.4s;
+}
+
+.mysql {
+  animation-delay: 0.6s;
+}
+
+.python {
+  animation-delay: 0.8s;
+}
+
+.nodejs {
+  animation-delay: 1s;
 }
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
@@ -67,5 +136,9 @@
     .experience__container > div {
       width: 100%;
       padding: 2rem 1rem;
+    }
+
+    .experience__container > div h4 {
+      font-size: 1rem;
     }
 }
