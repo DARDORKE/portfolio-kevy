@@ -5,6 +5,8 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
 import {FaRegHandshake} from 'react-icons/fa'
 import {BiMessageRoundedDetail} from 'react-icons/bi'
+import {RiProjector2Fill} from 'react-icons/ri'
+import {FaTripadvisor} from 'react-icons/fa'
 import { useState } from 'react'
 
 const Nav = () => {
@@ -15,6 +17,8 @@ const Nav = () => {
       <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser/></a>
       <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}><BiBook/></a>
       <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><FaRegHandshake/></a>
+      <a href='#portfolio' onClick={() => setActiveNav('#portfolio')} className={activeNav === '#portfolio' ? 'active' : ''}><RiProjector2Fill/></a>
+      <a href='#testimonials' onClick={() => setActiveNav('#testimonials')} className={activeNav === '#testimonials' ? 'active' : ''}><FaTripadvisor/></a>
       <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageRoundedDetail/></a>
     </nav>
   )

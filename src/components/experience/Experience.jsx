@@ -16,12 +16,12 @@ import {FaNodeJs} from 'react-icons/fa'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>What Skills I Have</h5>
-      <h2>My Experience</h2>
+      <h5>Quelles sont mes compétences ?</h5>
+      <h2>Mon Experience</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3>Développement Front-End</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
@@ -69,7 +69,7 @@ const Experience = () => {
         </div>
       
         <div className="experience__backend">
-          <h3>Backend Development</h3>
+          <h3>Développement Back-End</h3>
           <div className="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
