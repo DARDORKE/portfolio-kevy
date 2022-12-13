@@ -40,12 +40,23 @@ const About = () => {
           </div>
 
           <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent scelerisque eleifend ultricies. 
-          Ut vitae facilisis urna, nec commodo ex. In bibendum turpis elementum egestas porta. 
-          Morbi eu urna eget dui ultrices pharetra. In aliquam molestie ornare. 
+          Je suis <b>Kévy DARDOR</b> et voici mon portfolio. Vous y trouverez un bric-à-brac d'idées et de projets réalisés dans le domaine du <b>Digital UI/UX</b>, du <b>Webdesign</b>, du <b>Développement Web</b>.
           </p>
 
-          <a href="#contact" className='btn btn-primary'>Me contacter</a>
+          <p>
+            Passionné par l'informatique depuis mon plus jeune âge, je me suis d'abord orienté vers un cursus d'<b>Administrateur Système et Réseaux</b>.
+          </p>
+
+          <p>
+             Mes divers expériences m'ont aidé à rapidement réaliser que la <b>conception </b>et le <b>développement d'applications web</b> étaient mes passions premières.
+          </p>
+
+          <p>
+            J'essaye toujours d'apprendre de nouvelles choses et d'élargir mes horizons. Je suis une personne <b>polyvalente</b> qui aime autant le <b>graphisme et ses finesses</b> que la <b>programmation et ses problèmes</b>.
+          </p>
+          <div className='btn-contact'>
+            <a href="#contact" className='btn btn-primary'>Me contacter</a>
+          </div>
         </div>
       </div>
     </section>
